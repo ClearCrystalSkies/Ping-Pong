@@ -1,0 +1,15 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+input{
+    font-family: 'Press Start 2P', cursive;
+}
+h6{
+    margin-left: 10px;
+}
