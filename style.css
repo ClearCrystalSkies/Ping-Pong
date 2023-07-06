@@ -9,7 +9,19 @@ h1 button{
 }
 input{
     font-family: 'Press Start 2P', cursive;
+    margin: 10px;
+    letter-spacing: 5px;
 }
 h6{
     margin-left: 10px;
+}
+footer{
+    background-color: peru;
+    color: white;
+    border: black ;
+    width: 30%;
+    padding-bottom: 2px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

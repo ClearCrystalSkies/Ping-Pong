@@ -26,8 +26,26 @@
                 <button data-target="#mymodal" data-toggle="modal" class="btn btn-info">Instructions</button>
             </h1>
             <input type="button" onclick="startGame()" value="Play !" class="btn btn-success btn-outline-warning">
+            <input type="button" onclick="restart()" value="Restart" class="btn btn-success btn-outline-warning">
             <p id="status" class="btn btn-outline-primary"></p>
             <div id="canvas"></div>
+            <div id="mymodal" class="modal fade">
+                <div class="modal-dailog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">&times;</button>
+                            <h3> Instructions </h3>
+                        </div>
+                        <div class="modal-body">
+                            <ol>
+                                <li> Raise your right hand to the upper half of the video visible to move the paddle up.</li>
+                                <li> Lower your right hand to the lower half of the video visible to move the paddle downwards.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>Developed by: <kbd>Yashita</kbd></footer>
         </center>
         <script src="main.js"></script>
     </body>
